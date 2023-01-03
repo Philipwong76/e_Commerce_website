@@ -72,3 +72,17 @@
     background-color:  white;
 
 }
+
+.leftparagraph {
+  position: absolute;
+  top: 170px;
+  left: 30px;
+  font-size: 25px;
+}
+
+.rightparagraph {
+  position: absolute;
+  bottom: 170px;
+  right: 30px;
+  font-size: 25px;
+}
