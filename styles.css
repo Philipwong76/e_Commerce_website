@@ -16,11 +16,17 @@
     text-decoration: none;
     font-size: 17px;
   }
+
+  .lefttopimage {
+    width: 500px;
+  }
+
   .CARAPOT {
     margin-right: auto;
     margin-left: auto;
     width: 25px;
   }
+
   .topnav nav a:hover {
     background: #ddd;
     color: black;
@@ -70,7 +76,6 @@
 
 .product {
     background-color:  white;
-
 }
 
 .leftparagraph {
@@ -86,3 +91,4 @@
   right: 30px;
   font-size: 25px;
 }
+
