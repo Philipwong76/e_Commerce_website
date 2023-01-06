@@ -124,3 +124,68 @@ resize: none;
 .footer {
 background-color: #BF7631;
 }
+
+.CARAPOTB {
+  margin-right: auto;
+  margin-left: auto;
+  width: 25px;
+}
+
+.lefticons {
+  position: relative;
+  left: 250px;
+  top: 50px;
+}
+
+.youtube {
+  margin-right: auto;
+  margin-left: auto;
+  width: 50px;
+}
+
+.facebook {
+  margin-right: auto;
+  margin-left: auto;
+  width: 50px;
+}
+
+.footer div h3 {
+  position: relative;
+  left: 500;
+}
+
+.righticons {
+  position: relative;
+  left: 850px;
+  bottom: 75px;
+}
+
+.twitter {
+  margin-right: auto;
+  margin-left: auto;
+  width: 50px;
+}
+
+.instagram {
+  margin-right: auto;
+  margin-left: auto;
+  width: 50px;
+}
+
+.leftsentence {
+  position: relative;
+  left: 250px;
+  bottom: 95px;
+}
+
+.rightsentence {
+  position: relative;
+  left: 680px;
+  bottom: 130px;
+}
+
+.copyright {
+  position: relative;
+  left: 1040px;
+  bottom: 163px;
+}
