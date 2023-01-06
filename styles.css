@@ -109,6 +109,13 @@ right: 25px;
 width: 100px;
 }
 
+.rights1 {
+  position: relative;
+  width: 50%;
+  left: 100px;
+  top: 10px;
+}
+
 #email {
   width: 600px;
 }
