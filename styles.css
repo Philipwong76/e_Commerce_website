@@ -1,12 +1,22 @@
+/* TOP NAVIGATION MENU */
+
 .topnav {
   overflow: hidden;
   background-color: rgb(255, 255, 255);
   position: fixed;
   top: 0;
   display:flex;
+  height: auto;
   width: 100%;
   align-items:center;
+}
+
+.mainborder {
+  position: relative;
   border-bottom: 5px solid black;
+  width: 1060px;
+  right: 820px;
+  top: 10px;
 }
 .topnav nav a {
   float: left;
@@ -59,14 +69,26 @@
   width: 1%;
 }
 
+/* HOME SECTION */
 #home {
   height: 580px;
+  width: auto;
   background-color: black;
   background: url(assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg); 
   padding: auto;
   background-size: contain;
   background-repeat: no-repeat;
   color: white;
+}
+
+/* PRODUCT SECTION */
+#product{
+  position: relative;
+}
+
+.productborder {
+  position: relative;
+  border-bottom: 5px solid black;
 }
 
 .product_image{
@@ -77,6 +99,7 @@
   width: 30%;
   border: 2px solid black;
 }
+
 .product_container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -86,7 +109,26 @@
 
 .product {
   background-color:  white;
+}
 
+.learnmoreb {
+  text-decoration: underline #BF7631 var(--color-primary);
+  text-underline-offset: 1rem;
+}
+/* ABOUT SECTION */
+
+#about {
+  top: 100px;
+  height: auto;
+  width: auto;
+}
+
+.rimageborder {
+  width: 685px;
+  right: 260px;
+  bottom: 140px;
+  position: relative;
+  border-bottom: 5px solid black;
 }
 
 .leftparagraph {
@@ -105,9 +147,17 @@ font-size: 25px;
 
 .rightimage {
 position :absolute;
-right: 25px;
-width: 100px;
+left: 61.5%;
+top: 111.5%;
+width: 460px;
+height: auto;
 }
+
+.leftimage {
+  position: relative;
+  width: 300px;
+}
+
 
 .rights1 {
   position: relative;
@@ -116,79 +166,143 @@ width: 100px;
   top: 10px;
 }
 
+.lefts1 {
+  position: relative;
+  width: 25%;
+  left: 380px;
+  bottom: 426px;
+}
+
+.lefts2 {
+  position: relative;
+  width: 25%;
+  left: 380px;
+  bottom: 400px;
+}
+
+/* CONTACT SECTION */
+
+.contacttitle {
+  position: absolute;
+  left: 90px;
+}
+
+.contactborder {
+  position: relative;
+  border-bottom: 5px solid black;
+  width: 550px;
+  right: 330px;
+  bottom: 10px;
+}
+
+/* Checkpoint 1 (horzontal lines starts to expand under this line) */
+
+#contact {
+  position: relative;
+  top: 70px;
+  bottom: 70px;
+}
+
+.contact {
+  position: relative;
+  width: auto;
+  height: auto;
+  left: 25px;
+}
+
+.EMsection {
+  position: relative;
+  left: 260px;
+}
+
 #email {
   width: 600px;
+  height: auto;
 }
 
 #message {
-width: 600px;
-height: 150px;
-resize: none;
+  width: 600px;
+  height: 150px;
+  resize: none;
+  }
+  
+.sendbutton {
+  position: relative;
+  top: 120px;
+  right: 56px;
 }
+
+/* FOOTER SECTION */
 
 .footer {
+position: relative;
+top: 200px;
+
+height: auto;
+width: auto;
 background-color: #BF7631;
 }
-
+  
 .CARAPOTB {
   margin-right: auto;
   margin-left: auto;
-  width: 25px;
+  width: 70px;
 }
-
+  
 .lefticons {
   position: relative;
   left: 250px;
-  top: 50px;
+  top: 65px;
 }
-
+  
 .youtube {
   margin-right: auto;
   margin-left: auto;
   width: 50px;
 }
-
+  
 .facebook {
   margin-right: auto;
   margin-left: auto;
   width: 50px;
 }
-
+  
 .footer div h3 {
   position: relative;
-  left: 500;
+  left: 540px;
+  bottom: 15px;
 }
-
+  
 .righticons {
   position: relative;
   left: 850px;
-  bottom: 75px;
+  bottom: 100px;
 }
-
+  
 .twitter {
   margin-right: auto;
   margin-left: auto;
   width: 50px;
 }
-
+  
 .instagram {
   margin-right: auto;
   margin-left: auto;
   width: 50px;
 }
-
+  
 .leftsentence {
   position: relative;
   left: 250px;
   bottom: 95px;
 }
-
+  
 .rightsentence {
   position: relative;
   left: 680px;
   bottom: 130px;
 }
-
+  
 .copyright {
   position: relative;
   left: 1040px;
